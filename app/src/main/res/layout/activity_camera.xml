@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kery.picpro.CameraActivity">
+
+    <com.kery.picpro.CustomCameraPreview
+        android:id="@+id/cameprv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.kery.picpro.RectOnCamera
+        android:id="@+id/rect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/take_light"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/light_off" />
+</FrameLayout>
